@@ -1,7 +1,5 @@
 # Evolving Virtual Creatures through Geometrical Patterns
 
-**Note: Environments and code as used in each experiment is available as a release**
-
 ---
 
 ## Repository Structure
