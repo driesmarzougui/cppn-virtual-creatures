@@ -1,0 +1,66 @@
+{
+  "experiment": {
+    "env_path": "meta/builds/experiment5/single_env_vis/single_env_vis",
+    "config_path": "meta/configs/test_morph_movement",
+    "log_dir": "../output/logs",
+    "results_dir": "../output/results",
+    "generations": 10000000,
+    "trials": 1,
+    "max_steps": 5000,
+    "max_population_size": 200,
+    "min_population_size": 100,
+    "novelty_search": false,
+    "reinsert_evaluated": false,
+    "save_n_best": {
+      "amount": 5,
+      "min_fitness_threshold": 2.5
+    },
+    "checkpoint_interval": 1000000
+  },
+  "execution": {
+    "n_processes": -1
+  },
+  "es_params": {
+    "substrate_dimensions": 3,
+    "initial_depth": 2,
+    "max_depth": 3,
+    "variance_threshold": 0.015,
+    "band_threshold": 0.25,
+    "iteration_level": 1,
+    "division_threshold": 0.015,
+    "max_weight": 3.0,
+    "activation": "tanh",
+    "update_interval": 1,
+    "prune_not_fully_connected": {
+      "outputs": false,
+      "inputs": false
+    }
+  },
+  "ns_params": {
+    "k": 15,
+    "archive_threshold": {
+      "mode": "dynamic",
+      "default": 1.0,
+      "stagnation": 2500,
+      "stagnation_reduction": 0.05,
+      "stagnation_promotion": 0.2,
+      "stagnation_promotion_threshold": 20
+    },
+    "behavior": "TimedDistanceEnergyAccumulationBehavior",
+    "behavior_size": 120,
+    "behavior_dummy": -1,
+    "behavior_sample_frequency": 100
+  },
+  "fitness_params": {
+    "solved": 4000,
+    "dummy": -2
+  },
+  "morph_params": {
+    "space_size": [5.0, 5.0, 5.0],
+    "subspace_size": [1.0, 1.0, 1.0],
+    "cjp_low_limit": 30.0,
+    "cjp_high_limit": 80.0,
+    "fix_brain": true,
+    "enable_additional_oscillatory_input" : true
+  }
+}

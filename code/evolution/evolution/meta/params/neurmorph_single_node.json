@@ -1,0 +1,81 @@
+{
+  "experiment": {
+    "env_path": "meta/builds/red_wall_v1/red_wall_v1",
+    "config_path": "meta/configs/neurmorph",
+    "log_dir": "/groups/ilabt-imec-be/thesis/dmarzoug/output/results/crawlers_red_wall",
+    "results_dir": "/groups/ilabt-imec-be/thesis/dmarzoug/output/results/crawlers_red_wall",
+    "no_graphics": true,
+    "generations": 10000000,
+    "trials": 1,
+    "max_steps": 5000,
+    "max_population_size": 200,
+    "min_population_size": 100,
+    "dgcb": false,
+    "coord_b": true,
+    "build_rewards": true,
+    "novelty_search": true,
+    "cvt_map_elites": true,
+    "reinsert_evaluated": false,
+    "save_n_best": {
+      "amount": 5,
+      "min_fitness_threshold": 1
+    },
+    "checkpoint_interval": 1000000
+  },
+  "execution": {
+    "n_processes": -1
+  },
+  "es_params": {
+    "substrate_dimensions": 3,
+    "initial_depth": 2,
+    "max_depth": 4,
+    "variance_threshold": 0.03,
+    "band_threshold": 0.3,
+    "iteration_level": 1,
+    "division_threshold": 0.3,
+    "max_weight": 3.0,
+    "activation": "tanh",
+    "update_interval": 1,
+    "prune_not_fully_connected": {
+      "outputs": false,
+      "inputs": false
+    }
+  },
+  "ns_params": {
+    "k": 15,
+    "archive_threshold": {
+      "mode": "dynamic",
+      "default": 5,
+      "stagnation": 300,
+      "stagnation_reduction": 0.2,
+      "stagnation_promotion": 0.5,
+      "stagnation_promotion_threshold": 20,
+      "lower_bound": 1
+    },
+    "behavior": "CrawlerDirectionTrajectory2DMorphBehavior",
+    "behavior_size": 28,
+    "behavior_dummy": -1,
+    "behavior_sample_frequency": 200
+  },
+  "cvt_me_params": {
+    "automatic_rebalancing": true,
+    "random_cvt_init": true,
+    "k": 100,
+    "cvt_samples": 250000,
+    "G": 5000,
+    "curiosity": true,
+    "noisy_fitness": false,
+    "sexual_reproduction_fraction": 0.25
+  },
+  "fitness_params": {
+    "solved": 1,
+    "dummy": -2
+  },
+  "morph_params": {
+    "space_size": [12, 12, 12],
+    "subspace_size": [2.4, 2.4, 2.4],
+    "cjp_low_limit": 10.0,
+    "cjp_high_limit": 150.0,
+    "fix_brain": true
+  }
+}

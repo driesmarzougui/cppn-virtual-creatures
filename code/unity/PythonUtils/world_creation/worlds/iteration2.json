@@ -1,0 +1,133 @@
+{
+  "height": 100,
+  "width": 100,
+  "block": "waterBlock",
+  "parts": [
+    {
+      "anchor": {
+        "x": 5,
+        "y": 5
+      },
+      "width": 90,
+      "height": 90,
+      "block": "earthBlock"
+    },
+    {
+      "anchor": {
+        "x": 40,
+        "y": 40
+      },
+      "width": 20,
+      "height": 20,
+      "block": "waterBlock"
+    },
+    {
+      "anchor": {
+        "x": 15,
+        "y": 15
+      },
+      "width": 5,
+      "height": 5,
+      "block": "waterBlock"
+    },
+    {
+      "anchor": {
+        "x": 80,
+        "y": 80
+      },
+      "width": 5,
+      "height": 5,
+      "block": "waterBlock"
+    },
+    {
+      "anchor": {
+        "x": 15,
+        "y": 80
+      },
+      "width": 5,
+      "height": 5,
+      "block": "waterBlock"
+    },
+    {
+      "anchor": {
+        "x": 80,
+        "y": 15
+      },
+      "width": 5,
+      "height": 5,
+      "block": "waterBlock"
+    },
+    {
+      "anchor": {
+        "x": 47,
+        "y": 27
+      },
+      "width": 5,
+      "height": 5,
+      "block": "waterBlock"
+    },
+    {
+      "anchor": {
+        "x": 47,
+        "y": 67
+      },
+      "width": 5,
+      "height": 5,
+      "block": "waterBlock"
+    },
+    {
+      "anchor": {
+        "x": 27,
+        "y": 48
+      },
+      "width": 5,
+      "height": 5,
+      "block": "waterBlock"
+    },
+    {
+      "anchor": {
+        "x": 67,
+        "y": 48
+      },
+      "width": 5,
+      "height": 5,
+      "block": "waterBlock"
+    },
+    {
+      "anchor": {
+        "x": 49,
+        "y": 17
+      },
+      "width": 2,
+      "height": 2,
+      "block": "vegetationBlock"
+    },
+    {
+      "anchor": {
+        "x": 49,
+        "y": 77
+      },
+      "width": 2,
+      "height": 2,
+      "block": "vegetationBlock"
+    },
+    {
+      "anchor": {
+        "x": 17,
+        "y": 49
+      },
+      "width": 2,
+      "height": 2,
+      "block": "vegetationBlock"
+    },
+    {
+      "anchor": {
+        "x": 77,
+        "y": 50
+      },
+      "width": 2,
+      "height": 2,
+      "block": "vegetationBlock"
+    }
+  ]
+}

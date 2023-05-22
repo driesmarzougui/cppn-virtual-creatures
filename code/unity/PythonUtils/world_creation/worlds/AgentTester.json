@@ -1,0 +1,43 @@
+{
+  "height": 30,
+  "width": 30,
+  "block": "waterBlock",
+  "parts": [
+    {
+      "anchor": {
+        "x": 5,
+        "y": 5
+      },
+      "width": 20,
+      "height": 20,
+      "block": "earthBlock"
+    },
+    {
+      "anchor": {
+        "x": 15,
+        "y": 15
+      },
+      "width": 1,
+      "height": 1,
+      "block": "agentBlock"
+    },
+    {
+      "anchor": {
+        "x": 18,
+        "y": 18
+      },
+      "width": 1,
+      "height": 1,
+      "block": "agentBlock"
+    },
+    {
+      "anchor": {
+        "x": 7,
+        "y": 7
+      },
+      "width": 2,
+      "height": 2,
+      "block": "vegetationBlock"
+    }
+  ]
+}

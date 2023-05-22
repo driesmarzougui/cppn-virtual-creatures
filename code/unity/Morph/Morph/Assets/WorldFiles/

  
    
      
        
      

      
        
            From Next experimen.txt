@@ -1,0 +1,98 @@
+
+
+  
+    
+      
+        
+      
+
+      
+        
+            From Next experiment
+
+        
+      
+
+        
+          
+            Restore
+            
+        
+    
+  
+
+  
+    
+      
+  
+  
+    
+  
+  
+    
+      Copy card link
+    
+      
+      
+      
+    Archive
+    
+
+    
+      
+        Remove from project
+      
+      
+
+  
+
+
+  
+  
+    
+  
+
+
+NEAT: Implement asexual & sexual reproduction with parameter probability setting
+
+
+
+  #137
+  opened by dmarzoug
+
+
+
+  
+      
+        neuroevolution
+      
+      
+        python
+      
+  
+
+  
+    
+       Iteration two - evolution
+    
+  
+
+  
+    
+
+        
+          
+        
+    
+  
+
+
+
+
+
+
+
+        Press enter to move this card
+    
+
+  

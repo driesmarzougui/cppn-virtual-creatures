@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4270307236404952583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2687859065911767870}
+  - component: {fileID: 3949627788811848754}
+  - component: {fileID: 5979883752549323099}
+  - component: {fileID: 2053566205840902125}
+  - component: {fileID: 1465138896341062502}
+  - component: {fileID: -2693153251614723798}
+  - component: {fileID: 6510539858261139686}
+  - component: {fileID: 7246402817226765484}
+  m_Layer: 0
+  m_Name: MAgent
+  m_TagString: agent
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2687859065911767870
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270307236404952583}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3949627788811848754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270307236404952583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb1c7a66a5317e41ba1e8b48ca604f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exampleJson: {fileID: 4900000, guid: 0225c6352da8453394f7ee1ea1d0b200, type: 3}
+  fillerBlock: {fileID: 8364120865080682944, guid: 29588130decb8b240859cf9bf314f758,
+    type: 3}
+  brainBlock: {fileID: 8364120865080682944, guid: b9b0c6040b8ff59a3b27027e6ecafd36,
+    type: 3}
+  sensorBlock: {fileID: 8364120865080682944, guid: b1bb2e82e614f5408853f222c6af8075,
+    type: 3}
+  cjBlockMaterial: {fileID: 2100000, guid: 3fa77599b27014990835d7c67b80f224, type: 2}
+--- !u!114 &5979883752549323099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270307236404952583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 222ac90e8069b46b1923e2f80f12c48f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  genes: {fileID: 0}
+  state: {fileID: 0}
+  brain: {fileID: 0}
+  energyController: {fileID: 0}
+  vegetationSpawner: {fileID: 0}
+  brainBlockRB: {fileID: 0}
+--- !u!114 &2053566205840902125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270307236404952583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c95f9d36aa2442399e7056d7d818731, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxFoodEnergyRange: {x: 1, y: 1}
+  genomeId: 
+--- !u!114 &1465138896341062502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270307236404952583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07845dd5edf2c45ac822cfa5db6a523f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2693153251614723798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270307236404952583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71bf30411bcdc22f1b0513eddd872d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EPS: 0.00001
+--- !u!114 &6510539858261139686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270307236404952583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    VectorObservationSize: 102
+    NumStackedVectorObservations: 1
+    VectorActionSize: 31000000
+    VectorActionDescriptions: []
+    VectorActionSpaceType: 1
+  m_Model: {fileID: 5022602860645237092, guid: dc0636f2ecf708a1a81075c974cbf931, type: 3}
+  m_InferenceDevice: 1
+  m_BehaviorType: 0
+  m_BehaviorName: CreatureBehavior
+  TeamId: 0
+  m_UseChildSensors: 1
+  m_UseChildActuators: 1
+  m_ObservableAttributeHandling: 0
+--- !u!114 &7246402817226765484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270307236404952583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 576c77993b0a7751a9271a9fcf091e20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vegetationPrefab: {fileID: 3445382272318762972, guid: 381574bd6bb14be84ab1cd91692e4941,
+    type: 3}
